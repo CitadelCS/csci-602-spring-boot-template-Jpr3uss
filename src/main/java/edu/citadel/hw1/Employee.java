@@ -3,8 +3,8 @@ package edu.citadel.hw1;
 import java.time.LocalDate;
 
 public abstract class Employee implements Comparable<Employee> {
-    private String name;
-    private LocalDate hireDate;
+    protected String name;
+    protected LocalDate hireDate;
 
     public Employee(String name, LocalDate hireDate) {
         this.name = name;
