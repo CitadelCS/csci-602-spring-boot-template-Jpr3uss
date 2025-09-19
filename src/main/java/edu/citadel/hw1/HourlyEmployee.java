@@ -3,8 +3,6 @@ package edu.citadel.hw1;
 import java.time.LocalDate;
 import java.util.Objects;
 
-import org.apache.commons.lang3.builder.HashCodeExclude;
-
 public class HourlyEmployee extends Employee{
     private double wageRate;
     private double hoursWorked;
