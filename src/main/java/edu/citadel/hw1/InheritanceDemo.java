@@ -61,6 +61,6 @@ public class InheritanceDemo {
             totalPay += pay;
         }
         
-        System.out.printf("Total Monthly Pay: $,.2f", totalPay);
+        System.out.printf("Total Monthly Pay: $%,.2f\n", totalPay);
     }
 }
