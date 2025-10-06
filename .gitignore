@@ -25,3 +25,6 @@
 /nbdist/
 /.nb-gradle/
 /build/
+
+### VS Code / Codium ###
+.vscode/
