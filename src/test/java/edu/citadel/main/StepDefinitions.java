@@ -13,8 +13,6 @@ import java.util.Objects;
 
 import static org.springframework.test.util.AssertionErrors.*;
 
-//TODO
-// johnsondd2@g.cofc.edu
 
 public class StepDefinitions extends SpringIntegrationTest {
 
@@ -42,7 +40,7 @@ public class StepDefinitions extends SpringIntegrationTest {
     public void verifyResponseStatus(int expectedStatus) throws AssertionError {
         int actualStatus = response.getStatusCode().value();
 
-        assertEquals("Expected " + expectedStatus + "but got " + actualStatus,
+        assertEquals("Expected " + expectedStatus + " but got " + actualStatus,
                 expectedStatus, actualStatus);
     }
 
